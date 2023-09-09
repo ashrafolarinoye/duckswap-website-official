@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu, X, Wallet } from "lucide-react";
 import NavImg from "@/assets/imgs/logo.png";
+import "@/app/globals.css";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ const Header = () => {
   return (
     <nav>
       {/* Large Devices */}
-      <div className="flex justify-between items-center mt-8 mx-4 sm:mx-8 md:mx-16 lg:mx-32">
+      <div className="flex justify-between items-center mt-8 mx-4 sm:mx-8 md:mx-16 lg:mx-10">
         <div className="logo cursor-pointer text-white">
           <Link href={"/"}>
           <Image
@@ -24,7 +25,7 @@ const Header = () => {
                 width="200"
                 height="45.3"
                 alt="logo"
-              />
+          />
             </Link>
         </div>
         <div className="md:hidden">
@@ -47,31 +48,31 @@ const Header = () => {
         >
           <Link
             href={""}
-            className="text-lg hover:text-purple-600 hover:duration-700 "
+            className="text-lg hover:text-600 hover:duration-700 "
           >
             About
           </Link>
           <Link
             href={""}
-            className="text-lg hover:text-purple-600 hover:duration-700"
+            className="text-lg nav-text:hover"
           >
             How to Buy
           </Link>
           <Link
             href={""}
-            className="text-lg hover:text-purple-600 hover:duration-700"
+            className="text-lg hover:text-600 hover:duration-700"
           >
             Duckonomics
           </Link>
           <Link
             href={"/"}
-            className="text-lg hover:text-purple-600  hover:duration-700"
+            className="text-lg hover:text-600  hover:duration-700"
           >
             Duckmap
           </Link>
           <Link
             href={"/"}
-            className="text-lg hover:text-purple-600  hover:duration-700"
+            className="text-lg hover:text-600  hover:duration-700"
           >
             Bridge
           </Link>
@@ -86,7 +87,15 @@ const Header = () => {
           }`}
         >
           <div className="flex justify-between items-center text-white h-16 px-4 sm:px-6">
-            <Link href={"/"}>Duck Coin</Link>
+            <Link href={"/"}>
+              <Image
+                className="rounded-xl"
+                src={NavImg}
+                width="200"
+                height="45.3"
+                alt="logo"
+              />
+            </Link>
             <div className="md:hidden">
               {isMenuOpen ? (
                 <X
@@ -115,12 +124,6 @@ const Header = () => {
               className="block px-3 py-2 text-base font-medium text-white"
             >
               How to Buy
-            </Link>
-            <Link
-              href={""}
-              className="block px-3 py-2 text-base font-medium text-white"
-            >
-              About
             </Link>
             <Link
               href={"/"}

@@ -4,4 +4,11 @@
 
 body {
   background-color: #151515;
+  font-family: Nunito Sans;
 }
+
+
+/*.nav-text:hover{
+  color: #FFFFFF;
+  border-bottom: 1px solid #FDB833;
+}*/
