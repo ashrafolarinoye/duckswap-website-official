@@ -1,5 +1,3 @@
-import { Carousel } from "@/components/Carousel";
-import Hero from "@/components/Hero";
 import InfoSec from "@/components/InfoSec";
 import ScrollToTop from "@/components/ScrollToUp";
 
