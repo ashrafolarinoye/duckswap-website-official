@@ -4,7 +4,7 @@ import HeroImg from "@/assets/imgs/HeroImg.png";
 
 const Hero = () => {
   return (
-    <div className="lg:mt-8 ">
+    <div className="lg:mt-8 px-2 md:px-6 md:py-4 lg:px-32 lg:py-6">
       <section className="">
         {/* Top */}
         <div className=" mt-8  lg:mt-16 flex-1 ">
