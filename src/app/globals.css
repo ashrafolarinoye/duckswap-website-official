@@ -12,7 +12,6 @@ body {
 .text{
   font-family: Nunito Sans;
 }
-
 .span-text{
   color: #DE9C3E;
   line-height: normal;
@@ -26,7 +25,6 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-
 .header-text{
   text-align: center;
 }
@@ -79,7 +77,19 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-
+.info-card-design{
+  display: flex;
+  width: 414px;
+  height: 219px;
+  padding: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 0.5px solid #DE9C3E;
+  background: rgba(162, 97, 47, 0.10);
+}
 .infocard-header{
   color: #FFF;
   text-align: center;
@@ -89,4 +99,19 @@ body {
   font-weight: 700;
   line-height: normal;
 }
-
+.infocard-tagline{
+  color: rgba(255, 255, 255, 0.50);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card{
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  gap: 29px;
+  justify-content: center;
+}
