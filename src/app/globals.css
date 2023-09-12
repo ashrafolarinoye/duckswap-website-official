@@ -98,6 +98,8 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-align: justify; 
+  text-align-last: center;
 }
 .infocard-tagline{
   color: rgba(255, 255, 255, 0.50);
@@ -114,4 +116,5 @@ body {
   align-items: center;
   gap: 29px;
   justify-content: center;
+  padding-top: 56px;
 }
