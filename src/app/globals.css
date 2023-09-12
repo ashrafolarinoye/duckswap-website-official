@@ -6,6 +6,9 @@
 body {
   background-color: #151515;
 }
+.bg2{
+  background-color: #DE9C3E;
+}
 .text{
   font-family: Nunito Sans;
 }
@@ -76,3 +79,14 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+
+.infocard-header{
+  color: #FFF;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
