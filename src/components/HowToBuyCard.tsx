@@ -16,6 +16,14 @@ const HowToBuyCard = () => {
             />
           ))}
         </div>
+        <div className="mt-8 flex items-center justify-center">
+            <a
+              className="top-spacing button flex px-2 h-16 text-xl font-bold text-white lg:w-40 rounded-full justify-center items-center cursor-pointer"
+              href={"/"}
+            >
+              Buy Now
+            </a>
+        </div>
     </section>
   );
 

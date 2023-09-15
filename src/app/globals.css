@@ -36,6 +36,10 @@ body {
 }
 .bottom{
   margin-bottom: 100px;
+  margin-bottom: 388px;
+}
+.top-spacing{
+  margin-top: 85px;
 }
 .button{
   border-radius: 20px;
@@ -135,5 +139,4 @@ body {
 }
 .how-to-buy-header .htbimg-two{
   margin-bottom: -150px;
-
 }
