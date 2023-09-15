@@ -7,8 +7,6 @@
   weight: 400
 }
 
-
-
 body {
   background-color: #151515;
 }
@@ -139,4 +137,27 @@ body {
 }
 .how-to-buy-header .htbimg-two{
   margin-bottom: -150px;
+}
+.footer{
+  display: inline-flex;
+  align-items: center;
+  gap: 54px;
+}
+.f-left{
+  width: 601px;
+  height: 52px;
+  border-radius: 0px 50px 0px 0px;
+  background: rgba(177, 129, 37, 0.20);
+}
+.f-right{
+  width: 601px;
+  height: 52px;
+  border-radius: 50px 0px 0px 0px;
+  background: rgba(177, 129, 37, 0.20);
+}
+.f-icons{
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
 }

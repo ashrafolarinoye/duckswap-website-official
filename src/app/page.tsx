@@ -3,6 +3,7 @@ import InfoCard from "@/components/InfoCard";
 import InfoSec from "@/components/InfoSec";
 import HowToBuy from "@/components/HowToBuy";
 import HowToBuyCard from "@/components/HowToBuyCard";
+import Footer from "@/components/Footer";
 import ScrollToUp from "@/components/ScrollToUp";
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <InfoCard />
       <HowToBuy />
       <HowToBuyCard />
+      <Footer />
       <ScrollToUp />
     </main>
   );
