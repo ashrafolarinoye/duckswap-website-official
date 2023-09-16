@@ -32,13 +32,6 @@ body {
 .header-text{
   text-align: center;
 }
-.bottom{
-  margin-bottom: 100px;
-  margin-bottom: 388px;
-}
-.top-spacing{
-  margin-top: 85px;
-}
 .button{
   border-radius: 20px;
   background: #FDB833;
@@ -139,11 +132,14 @@ body {
   margin-bottom: -150px;
 }
 .footer{
+  margin-top: 150px;
+}
+.f-icons{
   display: inline-flex;
   align-items: center;
   gap: 54px;
 }
-.f-left{
+/*.f-left{
   width: 601px;
   height: 52px;
   border-radius: 0px 50px 0px 0px;
@@ -154,7 +150,7 @@ body {
   height: 52px;
   border-radius: 50px 0px 0px 0px;
   background: rgba(177, 129, 37, 0.20);
-}
+}*/
 .f-icons{
   display: flex;
   padding: 10px;
