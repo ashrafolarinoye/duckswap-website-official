@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@font-face {
+  font-family: Showcard Gothic;
+  src: url(../assets/fontName/SHOWG.TTF);
+  weight: 400
+}
 
 body {
   background-color: #151515;
@@ -27,9 +31,6 @@ body {
 }
 .header-text{
   text-align: center;
-}
-.bottom{
-  margin-bottom: 100px;
 }
 .button{
   border-radius: 20px;
@@ -118,3 +119,35 @@ body {
   justify-content: center;
   padding-top: 56px;
 }
+.how-to-buy-header{
+  color: #FFF;
+  font-family: Showcard Gothic;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.how-to-buy-header .htbimg-two{
+  margin-bottom: -150px;
+}
+.how-to-buy-header .htbimg{
+  margin-bottom: -10px;
+  margin-left: 55%;
+}
+.footer{
+  margin-top: 150px;
+}
+
+/*.f-left{
+  width: 601px;
+  height: 52px;
+  border-radius: 0px 50px 0px 0px;
+  background: rgba(177, 129, 37, 0.20);
+}
+.f-right{
+  width: 601px;
+  height: 52px;
+  border-radius: 50px 0px 0px 0px;
+  background: rgba(177, 129, 37, 0.20);
+}*/

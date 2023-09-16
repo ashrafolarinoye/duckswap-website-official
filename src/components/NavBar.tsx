@@ -22,8 +22,8 @@ const Header = () => {
           <Image
                 className="rounded-xl"
                 src={NavImg}
-                width="200"
-                height="45.3"
+                width="120"
+                height="41.801"
                 alt="logo"
           />
             </Link>
@@ -91,8 +91,8 @@ const Header = () => {
               <Image
                 className="rounded-xl"
                 src={NavImg}
-                width="200"
-                height="45.3"
+                width="120"
+                height="41.801"
                 alt="logo"
               />
             </Link>
