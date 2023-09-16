@@ -5,7 +5,10 @@ import howtobuy from "@/assets/imgs/duckcoin.png";
 const HowToBuy = () => {
   return (
     <div className="lg:mt-8 px-2 md:px-6 md:py-4 lg:px-32 lg:py-6">
-      <section className="">
+      <section 
+        className=""
+        id="howtobuy"
+      >
         {/* Top */}
         <div className="how-to-buy-header mt-8  lg:mt-16 flex-1 ">
             <Image

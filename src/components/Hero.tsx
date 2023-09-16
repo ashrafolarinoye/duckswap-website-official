@@ -7,14 +7,22 @@ const Hero = () => {
     <div className="lg:mt-8 px-2 md:px-6 md:py-4 lg:px-32 lg:py-6">
       <section className="">
         {/* Top */}
-        <div className="mt-8 lg:mt-16 flex-1">
-          <h1 className="scroll-m-20 text-4xl font-extrabold text-white tracking-tight lg:text-5xl">
+          <div className="mt-8 lg:mt-16 flex-1">
+            <h2 className="herotxt text-3xl lg:text-4xl text-center uppercase py-6 eading-normal font-bold">
+            a great  {" "}
+            <span className="span-text">
+             BLOCKCHAIN ECOSYSTEM{" "}
+            </span>{" "} building <br /> web3 infrastructures and solutions
+            </h2>
+          </div>
+       <div className="mt-8 lg:mt-16 flex-1">
+          {/*<h1 className="scroll-m-20 text-4xl font-extrabold text-white tracking-tight lg:text-5xl">
                 A GREAT {" "}
             <span className="span-text">
            BLOCKCHAIN ECOSYSTEM{" "}
             </span>{" "}
                 BUILDING WEB3 INFRASTRUCTURES AND SOLUTIONS
-          </h1>
+          </h1>*/} 
           <p className="leading-7 tagline-text [&:not(:first-child)]:mt-6">
           We are making it easier for everyone  to access web3 products, and solve real-life problems 
           with Blockchain technology by integrating institutions, people, groups, and businesses into 
