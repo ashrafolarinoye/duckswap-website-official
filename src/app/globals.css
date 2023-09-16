@@ -131,14 +131,14 @@ body {
 .how-to-buy-header .htbimg-two{
   margin-bottom: -150px;
 }
+.how-to-buy-header .htbimg{
+  margin-bottom: -10px;
+  margin-left: 55%;
+}
 .footer{
   margin-top: 150px;
 }
-.f-icons{
-  display: inline-flex;
-  align-items: center;
-  gap: 54px;
-}
+
 /*.f-left{
   width: 601px;
   height: 52px;
@@ -151,9 +151,3 @@ body {
   border-radius: 50px 0px 0px 0px;
   background: rgba(177, 129, 37, 0.20);
 }*/
-.f-icons{
-  display: flex;
-  padding: 10px;
-  align-items: flex-start;
-  gap: 10px;
-}

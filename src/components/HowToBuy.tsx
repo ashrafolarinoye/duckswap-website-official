@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import HeroImg from "@/assets/imgs/duckcoin.png";
+import howtobuy from "@/assets/imgs/duckcoin.png";
 
 const HowToBuy = () => {
   return (
@@ -10,7 +10,7 @@ const HowToBuy = () => {
         <div className="how-to-buy-header mt-8  lg:mt-16 flex-1 ">
             <Image
                 className="htbimg"
-                src={HeroImg}
+                src={howtobuy}
                 width="150"
                 height="182"
                 alt="howtobuy"
@@ -23,7 +23,7 @@ const HowToBuy = () => {
           </h1>
           <Image
                 className="htbimg-two"
-                src={HeroImg}
+                src={howtobuy}
                 width="150"
                 height="182"
                 alt="howtobuy"
