@@ -19,6 +19,7 @@ body {
 .span-text{
   color: #DE9C3E;
   line-height: normal;
+  
 }
 .tagline-text{
   color: rgba(255, 255, 255, 0.50);
@@ -32,6 +33,10 @@ body {
 .header-text{
   text-align: center;
 }
+.herotxt{
+  color: #FFF;
+  font-weight: 900;
+}
 .button{
   border-radius: 20px;
   background: #FDB833;
@@ -41,6 +46,11 @@ body {
   padding: 0px 18px;
   justify-content: center;
   align-items: center;
+}
+.button:hover{
+  background: #ffffff;
+  color: #DE9C3E;
+  transition-duration: 0.5s;
 }
 
 /*.nav-text:hover{
