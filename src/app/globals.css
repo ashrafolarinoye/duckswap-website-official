@@ -53,10 +53,13 @@ body {
   transition-duration: 0.5s;
 }
 
-/*.nav-text:hover{
+.nav-text{
   color: #FFFFFF;
-  border-bottom: 1px solid #FDB833;
-}*/
+}
+.nav-text:hover{
+  display: inline;
+  border-bottom: 2px solid #FDB833;
+}
 
 .hero-img-text{
   display: flex;

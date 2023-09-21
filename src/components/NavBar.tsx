@@ -48,31 +48,31 @@ const Header = () => {
         >
           <Link
             href={""}
-            className="text-lg hover:text-600 hover:duration-700 "
+            className="text-lg hover:text-600 hover:duration-700 nav-text"
           >
             About
           </Link>
           <Link
             href={"#howtobuy"}
-            className="text-lg nav-text:hover"
+            className="text-lg nav-text"
           >
             How to Buy
           </Link>
           <Link
             href={"https://duckchain.gitbook.io/duckchain-whitepaper/"}
-            className="text-lg hover:text-600 hover:duration-700"
+            className="text-lg nav-text hover:duration-700"
           >
             Duckonomics
           </Link>
           <Link
             href={"/"}
-            className="text-lg hover:text-600  hover:duration-700"
+            className="text-lg nav-text  hover:duration-700"
           >
             Duckmap
           </Link>
           <Link
             href={"/"}
-            className="text-lg hover:text-600  hover:duration-700"
+            className="text-lg nav-text  hover:duration-700"
           >
             Bridge
           </Link>
@@ -115,31 +115,31 @@ const Header = () => {
           <div className={`px-2 pt-2 pb-3 space-y-1 bg-black`}>
             <Link
               href={""}
-              className="block px-3 py-2 text-base font-medium text-white"
+              className="block px-3 py-2 text-base font-medium nav-text"
             >
               About
             </Link>
             <Link
               href={"#howtobuy"}
-              className="block px-3 py-2 text-base font-medium text-white"
+              className="block px-3 py-2 text-base font-medium nav-text"
             >
               How to Buy
             </Link>
             <Link
               href={"https://duckchain.gitbook.io/duckchain-whitepaper/"}
-              className="block px-3 py-2 text-base font-medium text-white"
+              className="block px-3 py-2 text-base font-medium nav-text"
             >
               Duckonomics
             </Link>
             <Link
               href={"/"}
-              className="block px-3 py-2 text-base font-medium text-white"
+              className="block px-3 py-2 text-base font-medium nav-text"
             >
               Duckmap
             </Link>
             <Link
               href={"/"}
-              className="block px-3 py-2 text-base font-medium text-white"
+              className="block px-3 py-2 text-base font-medium nav-text"
             >
              Bridge
             </Link>
