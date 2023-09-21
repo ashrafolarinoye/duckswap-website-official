@@ -7,20 +7,20 @@ const InfoSec = () => {
       <section className="infosec flex flex-col items-center lg:justify-between lg:flex-row gap-y-10 py-6 px-6 ">
         {/* Left Side */}
         <div className=" mt-8 lg:mt-16 flex-1 ">
-          <h1 className="scroll-m-20 text-4xl  font-extrabold text-white tracking-tight lg:text-3xl">
+          <h1 className="scroll-m-20 text-4xl font-extrabold text-white tracking-tight lg:text-3xl text-center">
            SAY HELLO TO{" "}
             <span className="span-text">
               DUCKCOIN -  {" "}
             </span>{" "}
-            THE PREMIER MEME <br /> BASED COIN FOR ALL YOUR PAYMENT <br /> NEEDS!
+            THE PREMIER MEME BASED COIN <br />FOR ALL YOUR PAYMENT NEEDS!
           </h1>
-          <p className="infosec-tagline leading-7 [&:not(:first-child)]:mt-6">
+          <p className="infosec-tagline leading-7 [&:not(:first-child)]:mt-6 text-center">
             Join the Duckies worldwide in embracing the people's cryptocurrency, Duckcoin! As a decentralized, 
             open-source peer-to-peer digital currency, Duckcoin embodies the friendly, curious, and intelligent 
             nature of Duckies, creating a vibrant DeFi community.
           </p>
         </div>
-        {/* Right Side */}
+        {/* Right Side
         <div className="relative">
           <div className="lg:w-[336px] flex flex-1 items-center justify-center">
             <div className="flex">
@@ -32,7 +32,7 @@ const InfoSec = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
   );
 };

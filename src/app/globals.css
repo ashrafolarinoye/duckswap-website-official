@@ -71,6 +71,8 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: -100px;
+  z-index: 1;
 }
 .infosec{
   background: rgba(34, 20, 16, 0.30);

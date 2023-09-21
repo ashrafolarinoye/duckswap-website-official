@@ -53,13 +53,13 @@ const Header = () => {
             About
           </Link>
           <Link
-            href={""}
+            href={"#howtobuy"}
             className="text-lg nav-text:hover"
           >
             How to Buy
           </Link>
           <Link
-            href={""}
+            href={"https://duckchain.gitbook.io/duckchain-whitepaper/"}
             className="text-lg hover:text-600 hover:duration-700"
           >
             Duckonomics
@@ -120,13 +120,13 @@ const Header = () => {
               About
             </Link>
             <Link
-              href={""}
+              href={"#howtobuy"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
               How to Buy
             </Link>
             <Link
-              href={"/"}
+              href={"https://duckchain.gitbook.io/duckchain-whitepaper/"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
               Duckonomics

@@ -55,8 +55,8 @@ const Hero = () => {
               <Image
                 className="mt-11"
                 src={HeroImg}
-                width="269"
-                height="318"
+                width="323"
+                height="461"
                 alt="HeroImg"
               />
             </div>
