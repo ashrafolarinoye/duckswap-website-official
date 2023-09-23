@@ -106,6 +106,10 @@ body {
   border: 0.5px solid #DE9C3E;
   background: rgba(162, 97, 47, 0.10);
 }
+.info-card-design:hover{
+  background: rgba(162, 97, 47, 0.20);
+  transition-duration: 0.5s;
+}
 .infocard-header{
   color: #FFF;
   text-align: center;
@@ -166,3 +170,4 @@ body {
   border-radius: 50px 0px 0px 0px;
   background: rgba(177, 129, 37, 0.20);
 }*/
+

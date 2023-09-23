@@ -63,7 +63,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <p className="hero-img-text">
+          <p className="hero-img-text ">
           Duckcoin embodies the friendly, curious, <br />
           and intelligent nature of Duckies, fostering a <br />
           vibrant DeFi ecosystem
