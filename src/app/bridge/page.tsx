@@ -7,7 +7,7 @@ import {
     differenceInSeconds,
 } from "date-fns";
 
-export function CountDown() {
+function CountDown() {
     const [timeLeft, setTimeLeft] = useState<any>({});
 
     useEffect(() => {
