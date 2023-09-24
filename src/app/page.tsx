@@ -5,6 +5,7 @@ import HowToBuy from "@/components/HowToBuy";
 import HowToBuyCard from "@/components/HowToBuyCard";
 import Footer from "@/components/Footer";
 import ScrollToUp from "@/components/ScrollToUp";
+import { Duckonomics } from "@/components/Dockonomics";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <InfoSec />
       <InfoCard />
+      <Duckonomics />
       <HowToBuy />
       <HowToBuyCard />
       <Footer />
