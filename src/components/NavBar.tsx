@@ -65,13 +65,13 @@ const Header = () => {
             Duckonomics
           </Link>
           <Link
-            href={"/"}
+            href={"#duckmap"}
             className="text-lg hover:text-600  hover:duration-700"
           >
             Duckmap
           </Link>
           <Link
-            href={"/"}
+            href={"/bridge"}
             className="text-lg hover:text-600  hover:duration-700"
           >
             Bridge
@@ -114,31 +114,31 @@ const Header = () => {
           </div>
           <div className={`px-2 pt-2 pb-3 space-y-1 bg-black`}>
             <Link
-              href={""}
+              href={"#about"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
               About
             </Link>
             <Link
-              href={""}
+              href={"#howtobuy"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
               How to Buy
             </Link>
             <Link
-              href={"/"}
+              href={"#duckonomics"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
               Duckonomics
             </Link>
             <Link
-              href={"/"}
+              href={"#duckmap"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
               Duckmap
             </Link>
             <Link
-              href={"/"}
+              href={"/bridge"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
              Bridge
