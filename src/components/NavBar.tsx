@@ -47,19 +47,19 @@ const Header = () => {
           className={`hidden text-white md:flex flex-col md:flex-row gap-x-10`}
         >
           <Link
-            href={""}
+            href={"#about"}
             className="text-lg hover:text-600 hover:duration-700 "
           >
             About
           </Link>
           <Link
-            href={""}
+            href={"#howtobuy"}
             className="text-lg nav-text:hover"
           >
             How to Buy
           </Link>
           <Link
-            href={""}
+            href={"#duckonomics"}
             className="text-lg hover:text-600 hover:duration-700"
           >
             Duckonomics
