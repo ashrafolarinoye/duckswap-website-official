@@ -16,6 +16,8 @@ const poppins = localFont({
   ],
   variable: '--Showcard Gothic'
 })*/
+import Alert from "@/components/Alert";
+
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -36,6 +38,7 @@ export default function RootLayout({
           <link rel='icon' href='/favicon.png'/>
         </head>
       <body className={inter.className}>
+        <Alert />
         <NavBar />
         {children}
       
