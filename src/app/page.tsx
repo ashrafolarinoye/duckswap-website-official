@@ -5,7 +5,8 @@ import HowToBuy from "@/components/HowToBuy";
 import HowToBuyCard from "@/components/HowToBuyCard";
 import Footer from "@/components/Footer";
 import ScrollToUp from "@/components/ScrollToUp";
-import { Duckonomics } from "@/components/Dockonomics";
+import { Duckonomics } from "@/components/Duckonomics";
+import Duckmap from "@/components/Duckmap";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <InfoSec />
       <InfoCard />
       <Duckonomics />
+      <Duckmap />
       <HowToBuy />
       <HowToBuyCard />
       <Footer />
