@@ -4,7 +4,7 @@ import Duck from "@/assets/imgs/duck.png";
 
 const InfoSec = () => {
   return (
-      <section className="infosec flex flex-col items-center lg:justify-between lg:flex-row gap-y-10 py-6 px-6 ">
+      <section className="infosec flex flex-col items-center lg:justify-between lg:flex-row gap-y-10 py-6 px-6 " id="about">
         {/* Left Side */}
         <div className=" mt-8 lg:mt-16 flex-1 ">
           <h1 className="scroll-m-20 text-4xl  font-extrabold text-white tracking-tight lg:text-3xl">
