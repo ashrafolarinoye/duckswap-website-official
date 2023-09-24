@@ -7,6 +7,11 @@ export const InfoData: infodata[] = [
     desc: " Dive into the ultimate decentralized exchange (DEX) with staking, farming, and a cutting-edge Crosschain bridge. Say goodbye to high fees and security concerns—Duckswap leverages Layerzero and Axelar infrastructure for seamless and safe crosschain movement of assets.",
   },
   {
+    id: 1,
+    title: "Duckchain L1 & L2",
+    desc: " The ultimate fastest, cheapest flexible blockchain for decentralized apps and cross chain Dapps.",
+  },
+  {
     id: 2,
     title: "Lottery",
     desc: "Get your quackers ready for thrilling lotteries, offering you a chance to win amazing prizes and make your wallet soar.",
