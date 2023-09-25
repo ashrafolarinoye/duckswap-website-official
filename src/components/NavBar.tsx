@@ -19,14 +19,14 @@ const Header = () => {
       <div className="flex justify-between items-center mt-8 mx-4 sm:mx-8 md:mx-16 lg:mx-10">
         <div className="logo cursor-pointer text-white">
           <Link href={"/"}>
-          <Image
-                className="rounded-xl"
-                src={NavImg}
-                width="120"
-                height="41.801"
-                alt="logo"
-          />
-            </Link>
+            <Image
+              className="rounded-xl"
+              src={NavImg}
+              width="120"
+              height="41.801"
+              alt="logo"
+            />
+          </Link>
         </div>
         <div className="md:hidden">
           {isMenuOpen ? (
@@ -47,25 +47,25 @@ const Header = () => {
           className={`hidden text-white md:flex flex-col md:flex-row gap-x-10`}
         >
           <Link
-            href={"#about"}
+            href={"/#about"}
             className="text-lg hover:text-600 hover:duration-700 "
           >
             About
           </Link>
           <Link
-            href={"#howtobuy"}
+            href={"/#howtobuy"}
             className="text-lg nav-text:hover"
           >
             How to Buy
           </Link>
           <Link
-            href={"#duckonomics"}
+            href={"/#duckonomics"}
             className="text-lg hover:text-600 hover:duration-700"
           >
             Duckonomics
           </Link>
           <Link
-            href={"#duckmap"}
+            href={"/#duckmap"}
             className="text-lg hover:text-600  hover:duration-700"
           >
             Duckmap
@@ -77,14 +77,13 @@ const Header = () => {
             Bridge
           </Link>
         </div>
-       
+
         {/* Mobile Devices */}
         <div
-          className={`${
-            isMenuOpen
+          className={`${isMenuOpen
               ? "fixed inset-0 z-50 bg-black transition-opacity duration-300 ease-in-out"
               : "hidden"
-          }`}
+            }`}
         >
           <div className="flex justify-between items-center text-white h-16 px-4 sm:px-6">
             <Link href={"/"}>
@@ -114,34 +113,34 @@ const Header = () => {
           </div>
           <div className={`px-2 pt-2 pb-3 space-y-1 bg-black`}>
             <Link
-              href={"#about"}
+              href={"/#about"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
               About
             </Link>
             <Link
-              href={"#howtobuy"}
+              href={"/#howtobuy"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
               How to Buy
             </Link>
             <Link
-              href={"#duckonomics"}
+              href={"/#duckonomics"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
               Duckonomics
             </Link>
             <Link
-              href={"#duckmap"}
+              href={"/#duckmap"}
               className="block px-3 py-2 text-base font-medium text-white"
             >
               Duckmap
             </Link>
             <Link
               href={"/bridge"}
-              className="block px-3 py-2 text-base font-medium text-white"
+              className="block px-3 py-2 text-base font-medium text-white relative"
             >
-             Bridge
+              Bridge
             </Link>
           </div>
         </div>

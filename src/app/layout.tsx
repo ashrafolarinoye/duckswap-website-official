@@ -33,16 +33,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-       <head>
-          <link rel='icon' href='/favicon.png'/>
+    <>
+      <html lang="en">
+        <head>
+          <link rel='icon' href='/favicon.png' />
         </head>
-      <body className={inter.className}>
-        <Alert />
-        <NavBar />
-        {children}
-      
-      </body>
-    </html>
+        <body className={inter.className}>
+          <Alert />
+          <NavBar />
+          {children}
+        </body>
+      </html>
+    </>
   );
 }
