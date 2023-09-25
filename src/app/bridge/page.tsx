@@ -22,7 +22,7 @@ const Bridge = () => {
         if (!tab) {
             push(`/bridge?tab=${Route.STARGATE}`);
         }
-    }, [])
+    }, [push, tab])
 
     return (
         <>
@@ -37,7 +37,7 @@ const Bridge = () => {
                         </ToggleButton>
                     </div>
                 </div>
-                <div className="flex justify-center items-center my-16 px-2 w-full h-fit">
+                <div className="flex justify-center items-center my-16 px-2 py-10 w-full h-fit">
                     <RenderedChild />
                 </div>
             </div>
