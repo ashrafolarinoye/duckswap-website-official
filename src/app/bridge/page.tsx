@@ -26,8 +26,8 @@ const Bridge = () => {
 
     return (
         <>
-            <div className="flex flex-col justify-start items-center space-y-3 h-screen mt-[7rem]">
-                <div className="flex justify-center items-center py-12 w-full">
+            <div className="flex flex-col justify-start items-center space-y-3 h-screen">
+                <div className="flex justify-center items-center py-3 w-full">
                     <div className="flex justify-center items-center rounded-[30px] bg-[#fff]/[.11] py-1 px-1">
                         <ToggleButton isActive={route === Route.STARGATE} onClick={() => push(`/bridge?tab=${Route.STARGATE}`)}>
                             <span>Stargate</span>
