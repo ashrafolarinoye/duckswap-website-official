@@ -76,6 +76,12 @@ const Header = () => {
           >
             Bridge
           </Link>
+          <Link
+            href={"https://duckchain.duckcoin.xyz/assets/DuckChain-whitepaper-28b04ce2.pdf"}
+            className="text-lg hover:text-600  hover:duration-700"
+          >
+            Whitepaper
+          </Link>
         </div>
 
         {/* Mobile Devices */}
@@ -141,6 +147,12 @@ const Header = () => {
               className="block px-3 py-2 text-base font-medium text-white relative"
             >
               Bridge
+            </Link>
+            <Link
+              href={"https://duckchain.duckcoin.xyz/assets/DuckChain-whitepaper-28b04ce2.pdf"}
+              className="text-lg hover:text-600  hover:duration-700"
+            >
+              Whitepaper
             </Link>
           </div>
         </div>

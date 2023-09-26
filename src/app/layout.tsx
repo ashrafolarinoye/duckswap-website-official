@@ -1,6 +1,5 @@
 import NavBar from "@/components/NavBar";
 import "./globals.css";
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@fontsource/nunito-sans"; // Defaults to weight 400
 import "@fontsource/nunito-sans/600.css"; // Specify weight
@@ -21,11 +20,6 @@ import Alert from "@/components/Alert";
 
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "Duck Coin",
-  description: "Powered by Duckcoin",
-};
 
 export default function RootLayout({
   children,

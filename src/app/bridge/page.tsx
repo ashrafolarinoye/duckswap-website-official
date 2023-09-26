@@ -26,8 +26,11 @@ const Bridge = () => {
 
     return (
         <>
+            <head>
+                <title>Bridge | Duckcoin - A Web3 Blockchain Ecosystem for Real-Life Solutions</title>
+            </head>
             <div className="flex flex-col justify-start items-center space-y-3 h-screen">
-                <div className="flex justify-center items-center py-3 w-full">
+                <div className="flex justify-center items-center py-16 w-full">
                     <div className="flex justify-center items-center rounded-[30px] bg-[#fff]/[.11] py-1 px-1">
                         <ToggleButton isActive={route === Route.STARGATE} onClick={() => push(`/bridge?tab=${Route.STARGATE}`)}>
                             <span>Stargate</span>
